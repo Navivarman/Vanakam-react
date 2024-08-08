@@ -1,0 +1,86 @@
+/* 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    
+}
+
+.logo > img {
+    width: 140px;
+}
+
+.nav-item > ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-item > ul > li{
+    font-size: 24px;
+    padding: 20px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.nav-item > ul > li>button{
+    padding: 10px;
+}
+
+.res-container{
+    width: 240px;
+    height: 440px;
+    border:2px solid gray;
+    margin-top: 2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.res-container:hover{
+        border: 2px solid rgb(0, 0, 0) ;
+}
+
+.res-logo > img {
+    width: 230;
+    height: 150px;
+    padding: 3px 5px;
+}
+.body-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.searchbox{
+    display: flex;
+    gap: 10px;
+}
+.search{
+    margin-top: 1rem ;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.shimmer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards{
+    margin: 1rem;
+    width: 240px;
+    height: 440px;
+    background-color: #f0f0f0;
+
+}
+.About{
+    border: 2px solid black;
+   margin: 10px;
+   padding: 10px;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
